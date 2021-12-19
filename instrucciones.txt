@@ -1,0 +1,16 @@
+* creacion de ambiente virtual (windows) con: 
+	python -m venv (nombre ambiente, en mi caso menv)
+* nos ubicamos dentro de la carpeta del ambiente con: 
+	cd menv
+* podemos activar el ambiente virtual con:
+	.\Scripts\activate
+* y para desactivar el ambiente virtual con:
+	.\Scripts\deactivate
+* Instalar Django previamente verificar que el ambiente este activado (menv)
+* Para instalar django lo hacemos con:
+	pip install Django 
+* con el comando anterior se instala la ultima version de Django que exista
+* En caso que nos salga la advertencia de actualizar nuestra version del gestor pip podemos actualizar este gestor con:
+	python -m pip install --upgrade pip
+* Verificamos la instalacion de Django con el comando:
+	pip freeze
