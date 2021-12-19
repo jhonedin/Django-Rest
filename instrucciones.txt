@@ -14,3 +14,19 @@
 	python -m pip install --upgrade pip
 * Verificamos la instalacion de Django con el comando:
 	pip freeze
+* se crea el proyecto de django con el comando:
+	django-admin startproject nombre_del_proyecto(inmuebles en mi caso)
+* creamos nuestra primera app con el comando:
+	python manage.py startapp nombre_de_la_app(inmuebleslist_app en mi caso)
+* Ponemos en marcha el servidor de Django para verificar que el proyecto funciona correctamente:
+	python manage.py runserver
+* la app creada la debemos registrar en el archivo settings.py del proyecto en django en la seccion de installed_apps
+	INSTALLED_APPS = [
+    		'django.contrib.admin',
+    		'django.contrib.auth',
+    		'django.contrib.contenttypes',
+    		'django.contrib.sessions',
+    		'django.contrib.messages',
+    		'django.contrib.staticfiles',
+    		'inmuebleslist_app',
+	]
