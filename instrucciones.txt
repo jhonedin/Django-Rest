@@ -30,3 +30,15 @@
     		'django.contrib.staticfiles',
     		'inmuebleslist_app',
 	]
+
+* se migra el proyecto con:
+	python manage.py migrate
+* se crea un super usuario para la administracion con el administrador que django trae por defecto.
+	python manage.py createsuperuser
+para mi caso:
+	username:jhonedinson
+	email: jhonedin1888@hotmail.com
+	password: jhonedin
+* Despues de creado el super usuario de corre el servidor nuevamente y esta vez entramos al sitio de administracion de django:
+	http://127.0.0.1:8000/admin
+* ingresamos el usuario y contraseña creado con el super usuario
