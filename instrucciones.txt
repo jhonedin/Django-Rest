@@ -42,3 +42,17 @@ para mi caso:
 * Despues de creado el super usuario de corre el servidor nuevamente y esta vez entramos al sitio de administracion de django:
 	http://127.0.0.1:8000/admin
 * ingresamos el usuario y contraseña creado con el super usuario
+* Para instalar Django-Rest Framework se hace con:
+	pip install djangorestframework
+* Para agregar este framework se debe añadir a la configuracion setting del proyecto:
+
+	INSTALLED_APPS = [
+    		'django.contrib.admin',
+    		'django.contrib.auth',
+    		'django.contrib.contenttypes',
+    		'django.contrib.sessions',
+    		'django.contrib.messages',
+    		'django.contrib.staticfiles',
+    		'inmuebleslist_app',
+    		'rest_framework',
+	]				
